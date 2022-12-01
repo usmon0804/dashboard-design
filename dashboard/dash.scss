@@ -1,0 +1,104 @@
+
+.back{
+    border: 1px solid lightgray;
+    padding: 5px 10px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+.box{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+
+    img{
+        width: 95%;
+        height: 100%;
+        &:hover{
+            box-shadow: 0 5px 5px rgb(189, 184, 184);
+            border-radius: 10px;
+        }
+    }
+}
+.box2{
+  
+    img{
+        width: 45%;
+        height: 45%;
+        margin: 10px;
+    }
+}
+.content{
+    position: relative;
+    h2{
+       margin: 10px 0 0 0; 
+    }
+    .texts{
+        p{
+            width: 78%;
+            font-size: 15px;
+            color: gray ;
+            padding: 10px 0 0 0;
+        }
+    }
+    .shops{
+        display: flex;
+        margin-top: 30px;
+        gap: 30px;
+        .card{
+            width: 30%;
+            height:60vh;
+            
+            h3{
+                margin: 20px 0 0 0;
+            }
+            p{
+                font-size: 13px;
+                color: gray;
+                margin-top: 10px;
+            }
+            .location{
+                display: flex;
+                margin-top: 10px;
+                gap: 30px;
+            }
+            button{
+                width: 90%;
+                height: 50px;
+                border-radius: 35px;
+                border: 0;
+                margin: 15px 0 0 15px;
+            }
+        }
+    }
+    .details{
+        width: 30%;
+        height: 80vh;
+        position: absolute;
+        right: 5%;
+        top: 80%;
+        .cart{
+            width: 100%;
+            height: 15%;
+            border-radius: 6px;
+            display: flex;
+            align-items: center;
+            padding: 0 0 0 25px;
+            margin-top: 10px;
+            border: 1px solid lightgray;
+            .about-price{
+                display: flex;
+                flex-direction: column;
+                padding: 0 0 0 20px;
+                line-height: 25px;
+                .price{
+                    color: gray;
+                    font-size: 15px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}
+
+ 
